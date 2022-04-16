@@ -275,7 +275,7 @@ function windows:Create(options)
         end
     end)
 
-    local BackgroundTransparency = Instance.new("Frame")
+    --[[local BackgroundTransparency = Instance.new("Frame")
     local transparentCorner = Instance.new("UICorner")
     local Settings = Instance.new("Frame")
     local MainCorner = Instance.new("UICorner")
@@ -463,7 +463,7 @@ function windows:Create(options)
             --Position = UDim2.new(0.955, 0,1.323, 0)
             TextTransparency = 1
         }):Play() 
-    end)
+    end)]]--
 
     local tabs = {}
 
